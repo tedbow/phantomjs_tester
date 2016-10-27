@@ -1,0 +1,8 @@
+
+phantomjs_tester.default_controller_test:
+  path: '/ph-test'
+  defaults:
+    _controller: '\Drupal\phantomjs_tester\Controller\DefaultController::test'
+    _title: 'Test'
+  requirements:
+      _access: 'TRUE'

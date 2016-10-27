@@ -1,0 +1,7 @@
+drupal.phantomjs_tester:
+  version: VERSION
+  js:
+    js/phantom-tester.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
